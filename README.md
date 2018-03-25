@@ -3,8 +3,8 @@
 </div>
 
 <div align="center">
-  <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind</a>, a utility-first CSS framework.</strong>
-  <strong>Uses <a href="https://purgecss.com/">Purgecss</a> to remove unused CSS.</strong>
+  <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind</a>, a utility-first CSS framework.</strong><br />
+  <strong>Uses <a href="https://purgecss.com/">Purgecss</a> to remove unused CSS.</strong><br />
   <strong>Illustrations by <a href="https://undraw.co/">unDraw</a>.</strong>
   <br />
   <br />
