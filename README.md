@@ -8,16 +8,26 @@ A [Gatsby](https://www.gatsbyjs.org/) starter styled using [Tailwind](https://ta
 
 
 ## Getting started
-```
-# Download the repo, navigate to its folder, and run the following commands:
-$ npm install       # Install npm dependencies
-$ npm run develop   # Create stylesheet from Tailwind config and run your site locally
+
+Install Gatsby CLI:
+```sh
+npm install --global gatsby-cli
 ```
 
-## Getting ready for launch
+Create new Gatsby project using this starter:
+```sh
+gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwind
 ```
-$ npm run build   # Create stylesheet from Tailwind config, remove unused CSS with Purgecss, and build your site for production
+
+Build stylesheet from Tailwind config and run project locally:
+```sh
+cd my-new-website
+npm run develop
 ```
+
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/taylorbryant/gatsby-starter-tailwind)
 
 ## Resources
 * [Gatsby documentation](https://www.gatsbyjs.org/docs/)
