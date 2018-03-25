@@ -8,7 +8,7 @@ const IndexPage = () => (
     <h2 className="bg-yellow inline-block my-8 p-3">
       Hey there! Welcome to your first Gatsby site.
     </h2>
-    <p>
+    <p className="leading-loose">
       This is a barebones starter for Gatsby styled using{" "}
       <a
         href="https://tailwindcss.com/"
