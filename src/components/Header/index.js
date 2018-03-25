@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "gatsby-link";
 
 const Header = () => (
   <div className="bg-teal">
@@ -11,12 +11,24 @@ const Header = () => (
       </h1>
 
       <ul className="flex list-reset">
-        <li><Link to="/" className="text-white ml-6 no-underline">Home</Link></li>
-        <li><Link to="/about" className="text-white ml-6 no-underline">About</Link></li>
-        <li><Link to="/contact" className="text-white ml-6 no-underline">Contact</Link></li>
+        <li>
+          <Link to="/" className="text-white ml-6 no-underline">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/about" className="text-white ml-6 no-underline">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" className="text-white ml-6 no-underline">
+            Contact
+          </Link>
+        </li>
       </ul>
     </div>
   </div>
-)
+);
 
-export default Header
+export default Header;
