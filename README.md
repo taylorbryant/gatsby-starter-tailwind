@@ -3,7 +3,7 @@ A [Gatsby](https://www.gatsbyjs.org/) starter styled using [Tailwind](https://ta
 Unused CSS is stripped out using [Purgecss](https://purgecss.com/).
   
   
-![alt text](https://image.ibb.co/nbM0c7/gatsby_starter_tailwind.png "Screenshot of Gatsby Starter Tailwind homepage")
+![alt text](https://image.ibb.co/jv6FC7/gatsby_starter_tailwind.png "Screenshot of Gatsby Starter Tailwind homepage")
   
 <p align="center">View demo <a href="https://quizzical-mcclintock-0226ac.netlify.com/">here</a>.</p>
 
