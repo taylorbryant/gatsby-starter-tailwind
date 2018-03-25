@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => (
   <div className="bg-blue">
-    <div className="flex justify-between max-w-xl mx-auto p-8 text-sm">
+    <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
       <p className="text-white">
         Created by{" "}
         <a
