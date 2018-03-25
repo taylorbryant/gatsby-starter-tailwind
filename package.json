@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-starter-tailwind",
+  "description": "Gatsby starter styled with Tailwind",
+  "version": "1.0.0",
+  "author": "Taylor Bryant <taylor@bryant.io>",
+  "dependencies": {
+    "gatsby": "^1.9.241",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-react-helmet": "^2.0.8",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby",
+    "tailwind",
+    "tailwindcss",
+    "purgecss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.js -o ./src/layouts/index.css && purgecss -c purgecss.config.js -o ./src/layouts && gatsby build",
+    "develop": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.js -o ./src/layouts/index.css && gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1",
+    "purgecss": "^0.21.0",
+    "tailwindcss": "^0.5.1"
+  }
+}
