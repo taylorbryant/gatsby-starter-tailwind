@@ -1,6 +1,5 @@
 # Gatsby Starter Tailwind
-A [Gatsby](https://www.gatsbyjs.org/) starter styled using [Tailwind](https://tailwindcss.com/), a utility-first CSS framework.  
-Unused CSS is stripped out using [Purgecss](https://purgecss.com/).
+A [Gatsby](https://www.gatsbyjs.org/) starter styled using [Tailwind](https://tailwindcss.com/), a utility-first CSS framework. Uses [Purgecss](https://purgecss.com/) to remove unused CSS.
   
   
 ![alt text](https://image.ibb.co/jv6FC7/gatsby_starter_tailwind.png "Screenshot of Gatsby Starter Tailwind homepage")
