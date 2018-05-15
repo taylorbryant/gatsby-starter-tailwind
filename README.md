@@ -4,7 +4,7 @@
 
 <div align="center">
   <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind</a>, a utility-first CSS framework.</strong><br />
-  Uses <a href="https://purgecss.com/">Purgecss</a> to remove unused CSS.<br />
+  Uses <a href="https://www.purgecss.com/">Purgecss</a> to remove unused CSS.<br />
   Illustrations by <a href="https://undraw.co/">unDraw</a>.
   <br />
   <br />
