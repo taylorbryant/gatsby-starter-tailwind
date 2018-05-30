@@ -1,6 +1,7 @@
 module.exports = {
   content: ['./public/**/*.html', './src/**/*.js'],
   css: ['./src/layouts/index.css'],
+  whitelist: ['body', 'html'],
   extractors: [
     {
       extractor: class {
