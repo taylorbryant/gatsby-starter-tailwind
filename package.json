@@ -17,8 +17,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.js -o ./src/layouts/index.css && purgecss -c purgecss.config.js -o ./src/layouts && gatsby build",
-    "develop": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.js -o ./src/layouts/index.css && gatsby develop",
+    "build:css": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.config.js -o ./src/layouts/index.css",
+    "build": "npm run build:css && purgecss -c ./purgecss.config.js -o ./src/layouts && gatsby build",
+    "develop": "npm run build:css && gatsby develop",
     "format": "prettier --write src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
