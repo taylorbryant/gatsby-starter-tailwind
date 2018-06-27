@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "prettier": "^1.11.1",
-    "purgecss": "^0.21.0",
-    "tailwindcss": "^0.5.3"
+    "purgecss": "^1.0.1",
+    "tailwindcss": "^0.6.1"
   }
 }
