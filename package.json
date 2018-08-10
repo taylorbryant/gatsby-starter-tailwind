@@ -4,8 +4,8 @@
   "version": "1.1.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "^1.9.241",
-    "gatsby-link": "^1.6.39",
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "react-helmet": "^5.2.0"
   },
@@ -24,8 +24,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.11.1",
+    "prettier": "^1.14.2",
     "purgecss": "^1.0.1",
-    "tailwindcss": "^0.6.1"
+    "tailwindcss": "^0.6.4"
   }
 }
