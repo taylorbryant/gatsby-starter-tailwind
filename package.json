@@ -26,6 +26,6 @@
   "devDependencies": {
     "prettier": "^1.14.2",
     "purgecss": "^1.0.1",
-    "tailwindcss": "^0.6.4"
+    "tailwindcss": "^0.6.5"
   }
 }
