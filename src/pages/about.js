@@ -22,7 +22,7 @@ const AboutPage = () => (
         </p>
 
         <p className="font-bold mt-4 text-right text-xs uppercase">
-          â€” Thomas Nagel
+          – Thomas Nagel
         </p>
       </div>
 
@@ -31,6 +31,6 @@ const AboutPage = () => (
       </div>
     </div>
   </Layout>
-)
+);
 
 export default AboutPage
