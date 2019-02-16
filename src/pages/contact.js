@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const ContactPage = () => (
   <Layout>
@@ -12,13 +12,13 @@ const ContactPage = () => (
 
     <form className="mx-auto md:w-1/2">
       <p className="leading-loose mb-8">
-        Here is an example of a form built using Tailwind. Click{' '}
+        Here is an example of a form built using Tailwind. Click{" "}
         <a
           href="https://tailwindcss.com/docs/examples/forms"
           className="font-bold no-underline text-grey-darkest"
         >
           here
-        </a>{' '}
+        </a>{" "}
         to see more examples.
       </p>
 
@@ -68,6 +68,6 @@ const ContactPage = () => (
       </button>
     </form>
   </Layout>
-)
+);
 
-export default ContactPage
+export default ContactPage;

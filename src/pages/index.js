@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import catAndHumanIllustration from '../images/cat-and-human-illustration.svg'
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 
 const IndexPage = () => (
   <Layout>
@@ -23,7 +23,7 @@ const IndexPage = () => (
       </h2>
 
       <p className="leading-loose">
-        This is a barebones starter for Gatsby styled using{' '}
+        This is a barebones starter for Gatsby styled using{" "}
         <a
           href="https://tailwindcss.com/"
           className="font-bold no-underline text-grey-darkest"
@@ -34,6 +34,6 @@ const IndexPage = () => (
       </p>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
