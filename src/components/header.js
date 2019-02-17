@@ -35,31 +35,30 @@ function Header({ siteTitle }) {
           </svg>
         </button>
 
-        {isExpanded ? (
-          <div className="md:flex md:items-center w-full md:w-auto">
-            <div className="text-sm">
-              <Link
-                to="/"
-                className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
-              >
-                Home
+        <div className={`${isExpanded ? `block` : `hidden`} md:block md:flex md:items-center w-full md:w-auto`}>
+          <div className="text-sm">
+            <Link
+              to="/"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+            >
+              Home
           </Link>
 
-              <Link
-                to="/about"
-                className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
-              >
-                About
+            <Link
+              to="/about"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+            >
+              About
           </Link>
 
-              <Link
-                to="/contact"
-                className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
-              >
-                Contact
+            <Link
+              to="/contact"
+              className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
+            >
+              Contact
           </Link>
-            </div>
-          </div>) : null}
+          </div>
+        </div>
       </div>
     </nav>
   )
