@@ -36,6 +36,7 @@ gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwin
 Build stylesheet from Tailwind config and run the project in development mode:
 ```sh
 cd my-new-website
+npm ci
 npm run develop
 ```
 
