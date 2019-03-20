@@ -27,11 +27,14 @@ Create new Gatsby project using this starter:
 gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwind
 ```
 
-Build stylesheet from Tailwind config and run project locally:
+Build stylesheet from Tailwind config and run the project in development mode:
 ```sh
 cd my-new-website
 npm run develop
 ```
+
+## Build your site
+Run `npm run build` to build your site for production.
 
 ## Deploy
 
