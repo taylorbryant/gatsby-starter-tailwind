@@ -1,7 +1,8 @@
 <div align="center">
   <img src="https://image.ibb.co/cJjPN7/gatsby_tailwind.png" alt="Gatsby and Tailwind CSS logos">
-  <a href="https://badge.fury.io/js/gatsby-starter-tailwind"><img src="https://badge.fury.io/js/gatsby-starter-tailwind.svg" alt="npm version" height="18"></a>
 </div>
+
+<div align="center"> <a href="https://badge.fury.io/js/gatsby-starter-tailwind"><img src="https://badge.fury.io/js/gatsby-starter-tailwind.svg" alt="npm version" height="18"></a></div>
 
 <div align="center">
   <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind</a>, a utility-first CSS framework.</strong><br />
