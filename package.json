@@ -1,18 +1,18 @@
 {
   "name": "gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "^2.1.4",
-    "gatsby-plugin-manifest": "^2.0.17",
-    "gatsby-plugin-postcss": "^2.0.5",
-    "gatsby-plugin-purgecss": "^3.1.0",
-    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby": "^2.2.2",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-purgecss": "^3.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.10",
     "graphql": "^14.1.1",
     "prop-types": "^15.7.2",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
