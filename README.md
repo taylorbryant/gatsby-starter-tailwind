@@ -14,6 +14,12 @@
   
 <p align="center">View demo <a href="https://quizzical-mcclintock-0226ac.netlify.com/">here</a>.</p>
 
+## What is Tailwind?
+>"Tailwind is a utility-first CSS framework for rapidly building custom user interfaces."
+–[Tailwind](https://tailwindcss.com)
+
+## What is Gatsby?
+>"Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps." -[Gatsby](https://www.gatsbyjs.org/)
 
 ## Getting started
 
