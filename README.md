@@ -14,6 +14,12 @@
   
 <p align="center">View demo <a href="https://quizzical-mcclintock-0226ac.netlify.com/">here</a>.</p>
 
+## What is Tailwind?
+>"Tailwind is a utility-first CSS framework for rapidly building custom user interfaces."
+–[Tailwind](https://tailwindcss.com)
+
+## What is Gatsby?
+>"Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps." -[Gatsby](https://www.gatsbyjs.org/)
 
 ## Getting started
 
@@ -27,11 +33,14 @@ Create new Gatsby project using this starter:
 gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwind
 ```
 
-Build stylesheet from Tailwind config and run project locally:
+Build stylesheet from Tailwind config and run the project in development mode:
 ```sh
 cd my-new-website
 npm run develop
 ```
+
+## Build your site
+Run `npm run build` to build your site for production.
 
 ## Deploy
 
@@ -43,3 +52,9 @@ npm run develop
 
 ## License
 [MIT](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/LICENSE.md)
+
+## How you can help
+Enjoying Gatsby Starter Tailwind and want to help? You can:
+* [Create an issue](https://github.com/taylorbryant/gatsby-starter-tailwind/issues/new) with some constructive criticism
+* [Submit a pull request](https://github.com/taylorbryant/gatsby-starter-tailwind/compare) with some improvements to the project
+* [Buy me a :coffee:](https://cash.me/$TaylorBryant)
