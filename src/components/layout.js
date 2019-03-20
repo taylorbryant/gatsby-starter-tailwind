@@ -8,14 +8,14 @@ function Layout({ children }) {
   return (
     <StaticQuery
       query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+            }
           }
         }
-      }
-    `}
+      `}
       render={data => (
         <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
           <Header siteTitle={data.site.siteMetadata.title} />
@@ -29,27 +29,27 @@ function Layout({ children }) {
               <p className="text-white">
                 Created by{" "}
                 <a
-                  href="https://taylorbryant.blog"
                   className="font-bold no-underline text-white"
+                  href="https://taylorbryant.blog"
                 >
                   Taylor Bryant
-              </a>
+                </a>
               </p>
 
               <p>
                 <a
-                  href="https://github.com/taylorbryant/gatsby-starter-tailwind"
                   className="font-bold no-underline text-white"
+                  href="https://github.com/taylorbryant/gatsby-starter-tailwind"
                 >
                   GitHub
-              </a>
+                </a>
               </p>
             </div>
           </footer>
         </div>
       )}
     />
-  )
+  );
 }
 
 Layout.propTypes = {

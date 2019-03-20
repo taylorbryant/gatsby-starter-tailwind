@@ -1,0 +1,48 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": ["react", "import", "prettier", "jsx-a11y", "react-hooks"],
+  "globals": {
+    "global": false,
+    "module": false,
+    "process": false,
+    "Promise": false,
+    "require": false
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "dot-location": ["error", "property"],
+    "eqeqeq": "error",
+    "import/no-unresolved": ["error", { "commonjs": true }],
+    "import/unambiguous": "OFF",
+    "new-cap": "error",
+    "no-multi-spaces": "error",
+    "no-useless-return": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-spread": "error",
+    "react/jsx-handler-names": "error",
+    "react/no-did-update-set-state": "error",
+    "react/no-multi-comp": "error",
+    "react/no-this-in-sfc": "error",
+    "react/no-unused-prop-types": "error",
+    "react/no-unused-state": "error",
+    "react/no-will-update-set-state": "error",
+    "react/prefer-es6-class": "error",
+    "react/prefer-stateless-function": "error",
+    "react/style-prop-object": "error",
+    "react-hooks/rules-of-hooks": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

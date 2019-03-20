@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "^2.2.2",
@@ -23,14 +23,27 @@
   ],
   "license": "MIT",
   "scripts": {
+    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze:prettier": "prettier --list-different '**/*.{js,css}'",
+    "analyze": "npm run analyze:lint && npm run analyze:prettier",
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
+    "fix:prettier": "prettier --write '**/*.{js,css}'",
+    "fix": "npm run fix:lint && npm run fix:prettier",
     "format": "prettier --write \"src/**/*.js\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.5.1",
     "prettier": "^1.16.4",
     "tailwindcss": "^0.7.4"
   },
