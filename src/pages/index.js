@@ -21,7 +21,7 @@ function IndexPage() {
 
         <h2 className="bg-yellow inline-block my-8 p-3">
           Hey there! Welcome to your first Gatsby site.
-      </h2>
+        </h2>
 
         <p className="leading-loose">
           This is a barebones starter for Gatsby styled using{" "}
@@ -30,12 +30,12 @@ function IndexPage() {
             className="font-bold no-underline text-grey-darkest"
           >
             Tailwind
-        </a>
+          </a>
           , a utility-first CSS framework.
-      </p>
+        </p>
       </div>
     </Layout>
-  )
+  );
 }
 
 export default IndexPage;

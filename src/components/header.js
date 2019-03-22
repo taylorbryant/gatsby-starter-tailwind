@@ -35,33 +35,37 @@ function Header({ siteTitle }) {
           </svg>
         </button>
 
-        <div className={`${isExpanded ? `block` : `hidden`} md:block md:flex md:items-center w-full md:w-auto`}>
+        <div
+          className={`${
+            isExpanded ? `block` : `hidden`
+          } md:block md:flex md:items-center w-full md:w-auto`}
+        >
           <div className="text-sm">
             <Link
               to="/"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
             >
               Home
-          </Link>
+            </Link>
 
             <Link
               to="/about"
               className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
             >
               About
-          </Link>
+            </Link>
 
             <Link
               to="/contact"
               className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
             >
               Contact
-          </Link>
+            </Link>
           </div>
         </div>
       </div>
     </nav>
-  )
+  );
 }
 
 Header.propTypes = {
