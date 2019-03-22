@@ -51,6 +51,8 @@ Run `npm run build` to build your site for production.
 ## Resources
 * [Gatsby documentation](https://www.gatsbyjs.org/docs/)
 * [Tailwind documentation](https://tailwindcss.com/docs/what-is-tailwind/)
+* [Prettier documentation](https://prettier.io/docs/en/index.html)
+* [ESLint documentation](https://eslint.org/docs/user-guide/configuring)
 
 ## License
 [MIT](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/LICENSE.md)
