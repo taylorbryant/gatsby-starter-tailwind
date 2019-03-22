@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "^2.2.6",
