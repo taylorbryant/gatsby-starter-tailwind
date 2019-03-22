@@ -19,16 +19,16 @@ function ContactPage() {
             className="font-bold no-underline text-grey-darkest"
           >
             here
-        </a>{" "}
+          </a>{" "}
           to see more examples.
-      </p>
+        </p>
 
         <label
           className="block font-bold mb-2 text-xs uppercase"
           htmlFor="first-name"
         >
           First Name
-      </label>
+        </label>
 
         <input
           className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
@@ -42,7 +42,7 @@ function ContactPage() {
           htmlFor="last-name"
         >
           Last Name
-      </label>
+        </label>
 
         <input
           className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
@@ -56,7 +56,7 @@ function ContactPage() {
           htmlFor="message"
         >
           Message
-      </label>
+        </label>
 
         <textarea
           className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
@@ -66,10 +66,10 @@ function ContactPage() {
 
         <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white">
           Submit
-      </button>
+        </button>
       </form>
     </Layout>
-  )
+  );
 }
 
 export default ContactPage;
