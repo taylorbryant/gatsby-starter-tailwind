@@ -46,7 +46,7 @@ npm run develop
 * `npm run fix` - Run Prettier and ESLint with the `--fix` option
 
 ## Build your site
-Run `npm run build` to build your site for production.
+Use `npm run build` to build your site for production.
 
 ## Deploy
 
