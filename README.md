@@ -41,6 +41,10 @@ cd my-new-website
 npm run develop
 ```
 
+## Scripts for your convenience
+* `analyze` - See what ESLint and Prettier can fix
+* `fix` - Run Prettier and ESLint with the `--fix` option
+
 ## Build your site
 Run `npm run build` to build your site for production.
 
