@@ -41,7 +41,7 @@ cd my-new-website
 npm run develop
 ```
 
-## Scripts for your convenience
+## Formatting and linting
 * `analyze` - See what ESLint and Prettier can fix
 * `fix` - Run Prettier and ESLint with the `--fix` option
 
