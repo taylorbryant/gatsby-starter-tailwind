@@ -42,8 +42,8 @@ npm run develop
 ```
 
 ## Formatting and linting
-* `analyze` - See what ESLint and Prettier can fix
-* `fix` - Run Prettier and ESLint with the `--fix` option
+* `npm run analyze` - See what ESLint and Prettier can fix
+* `npm run fix` - Run Prettier and ESLint with the `--fix` option
 
 ## Build your site
 Run `npm run build` to build your site for production.
