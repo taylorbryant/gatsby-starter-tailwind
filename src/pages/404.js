@@ -14,7 +14,7 @@ function NotFoundPage() {
           className="block mx-auto w-1/2"
           alt="Ghost getting abducted by aliens"
         />
-        <h2 className="bg-yellow inline-block my-8 p-3">
+        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
           Looks like this page is a ghost that got abducted by aliens...
         </h2>
       </div>
