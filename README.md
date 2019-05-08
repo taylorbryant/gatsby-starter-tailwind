@@ -65,4 +65,3 @@ Use `npm run build` to build your site for production.
 Enjoying Gatsby Starter Tailwind and want to help? You can:
 * [Create an issue](https://github.com/taylorbryant/gatsby-starter-tailwind/issues/new) with some constructive criticism
 * [Submit a pull request](https://github.com/taylorbryant/gatsby-starter-tailwind/compare) with some improvements to the project
-* [Buy me a :coffee:](https://cash.me/$TaylorBryant)
