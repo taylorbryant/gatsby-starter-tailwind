@@ -1,19 +1,19 @@
 {
   "name": "gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "^2.2.6",
-    "gatsby-plugin-manifest": "^2.0.24",
-    "gatsby-plugin-postcss": "^2.0.7",
-    "gatsby-plugin-purgecss": "^3.1.1",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "graphql": "^14.1.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "gatsby": "2.2.6",
+    "gatsby-plugin-manifest": "2.0.24",
+    "gatsby-plugin-postcss": "2.0.7",
+    "gatsby-plugin-purgecss": "3.1.1",
+    "gatsby-plugin-react-helmet": "3.0.10",
+    "graphql": "14.1.1",
+    "prop-types": "15.7.2",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-helmet": "5.2.0"
   },
   "keywords": [
     "gatsby",
@@ -36,15 +36,15 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.15.3",
-    "eslint-config-react-app": "^3.0.8",
-    "eslint-plugin-flowtype": "^2.50.3",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "prettier": "^1.16.4",
-    "tailwindcss": "^0.7.4"
+    "babel-eslint": "9.0.0",
+    "eslint": "5.15.3",
+    "eslint-config-react-app": "3.0.8",
+    "eslint-plugin-flowtype": "2.50.3",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4",
+    "prettier": "1.16.4",
+    "tailwindcss": "0.7.4"
   },
   "repository": {
     "type": "git",
