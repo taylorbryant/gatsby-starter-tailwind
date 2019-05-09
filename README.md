@@ -9,8 +9,6 @@
   <br />
   <br />
 </div>
-
-<p align="center"> <a href="https://badge.fury.io/js/gatsby-starter-tailwind"><img src="https://badge.fury.io/js/gatsby-starter-tailwind.svg" alt="npm version" height="18"></a></p>
   
 ![alt text](https://image.ibb.co/jv6FC7/gatsby_starter_tailwind.png "Screenshot of Gatsby Starter Tailwind homepage")
   
