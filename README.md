@@ -30,7 +30,7 @@ npm i --global gatsby-cli
 
 Create new Gatsby project using this starter:
 ```sh
-gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwind
+gatsby new my-new-website https://github.com/oddstronaut/gatsby-starter-tailwind
 ```
 
 Build stylesheet from Tailwind config and run the project in development mode:
