@@ -48,7 +48,7 @@ Use `npm run build` to build your site for production.
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/taylorbryant/gatsby-starter-tailwind)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oddstronaut/gatsby-starter-tailwind)
 
 ## Resources
 * [Gatsby documentation](https://www.gatsbyjs.org/docs/)
@@ -57,9 +57,9 @@ Use `npm run build` to build your site for production.
 * [ESLint documentation](https://eslint.org/docs/user-guide/configuring)
 
 ## License
-[MIT](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/LICENSE.md)
+[MIT](https://github.com/oddstronaut/gatsby-starter-tailwind/blob/master/LICENSE.md)
 
 ## How you can help
 Enjoying Gatsby Starter Tailwind and want to help? You can:
-* [Create an issue](https://github.com/taylorbryant/gatsby-starter-tailwind/issues/new) with some constructive criticism
-* [Submit a pull request](https://github.com/taylorbryant/gatsby-starter-tailwind/compare) with some improvements to the project
+* [Create an issue](https://github.com/oddstronaut/gatsby-starter-tailwind/issues/new) with some constructive criticism
+* [Submit a pull request](https://github.com/oddstronaut/gatsby-starter-tailwind/compare) with some improvements to the project
