@@ -1,7 +1,7 @@
 {
   "name": "@oddstronaut/gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "2.2.9",
+  "version": "2.2.10",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "2.2.6",
@@ -11,8 +11,8 @@
     "gatsby-plugin-react-helmet": "3.0.10",
     "graphql": "14.3.0",
     "prop-types": "15.7.2",
-    "react": "16.8.4",
-    "react-dom": "16.8.4",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "react-helmet": "5.2.1"
   },
   "keywords": [
