@@ -1,7 +1,7 @@
 {
   "name": "@oddstronaut/gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "2.2.11",
+  "version": "2.2.12",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "2.4.3",
@@ -36,7 +36,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
-    "babel-eslint": "9.0.0",
+    "babel-eslint": "10.0.1",
     "eslint": "5.16.0",
     "eslint-config-react-app": "4.0.1",
     "eslint-plugin-flowtype": "2.50.3",
