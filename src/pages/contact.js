@@ -16,7 +16,7 @@ function ContactPage() {
           Here is an example of a form built using Tailwind. Click{" "}
           <a
             href="https://tailwindcss.com/docs/examples/forms"
-            className="font-bold no-underline text-grey-darkest"
+            className="font-bold text-gray-800"
           >
             here
           </a>{" "}
@@ -31,7 +31,7 @@ function ContactPage() {
         </label>
 
         <input
-          className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
+          className="appearance-none block bg-gray-200 mb-6 p-3 rounded-md text-gray-700 w-full leading-tight"
           id="first-name"
           type="text"
           placeholder="Bill"
@@ -45,26 +45,26 @@ function ContactPage() {
         </label>
 
         <input
-          className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
+          className="appearance-none block bg-gray-200 mb-6 p-3 rounded-md text-gray-700 w-full"
           id="last-name"
           type="text"
           placeholder="Murray"
         />
 
         <label
-          className="block font-bold mb-2 text-xs uppercase"
+          className="block font-bold mb-2 text-xs uppercase leading-tight"
           htmlFor="message"
         >
           Message
         </label>
 
         <textarea
-          className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
+          className="appearance-none bg-gray-200 mb-6 p-3 rounded-md text-gray-700 w-full"
           placeholder="Say something..."
           rows="8"
         />
 
-        <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white">
+        <button className="border-b-4 border-gray-700 hover:border-gray-600 bg-gray-600 hover:bg-gray-300 font-bold px-6 py-3 rounded text-sm text-white">
           Submit
         </button>
       </form>
