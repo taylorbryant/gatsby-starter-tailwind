@@ -16,7 +16,7 @@ function ContactPage() {
           Here is an example of a form built using Tailwind. Click{" "}
           <a
             href="https://tailwindcss.com/docs/examples/forms"
-            className="font-bold no-underline text-gray-600est"
+            className="font-bold no-underline text-gray-600"
           >
             here
           </a>{" "}
