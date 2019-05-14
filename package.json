@@ -4,16 +4,16 @@
   "version": "2.2.2",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "^2.3.22",
-    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby": "^2.4.4",
+    "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-postcss": "^2.0.7",
     "gatsby-plugin-purgecss": "^3.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
-    "graphql": "^14.2.1",
+    "graphql": "^14.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.1"
   },
   "keywords": [
     "gatsby",
@@ -38,13 +38,13 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
-    "eslint-config-react-app": "^3.0.8",
-    "eslint-plugin-flowtype": "^3.6.1",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^3.8.2",
+    "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "prettier": "^1.16.4",
-    "tailwindcss": "^1.0.0-beta.4"
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.17.1",
+    "tailwindcss": "^1.0.1"
   },
   "repository": {
     "type": "git",
