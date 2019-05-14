@@ -1,4 +1,4 @@
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 <div align="center">
   <img src="https://image.ibb.co/cJjPN7/gatsby_tailwind.png" alt="Gatsby and Tailwind CSS logos">
@@ -72,7 +72,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://impuls.dev"><img src="https://avatars3.githubusercontent.com/u/8146736?v=4" width="100px;" alt="impulse"/><br /><sub><b>impulse</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=impulse" title="Code">💻</a></td></tr></table>
+<table><tr><td align="center"><a href="http://impuls.dev"><img src="https://avatars3.githubusercontent.com/u/8146736?v=4" width="100px;" alt="impulse"/><br /><sub><b>impulse</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=impulse" title="Code">💻</a></td><td align="center"><a href="https://gandreadis.com"><img src="https://avatars3.githubusercontent.com/u/5272244?v=4" width="100px;" alt="Georgios Andreadis"/><br /><sub><b>Georgios Andreadis</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=gandreadis" title="Code">💻</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
