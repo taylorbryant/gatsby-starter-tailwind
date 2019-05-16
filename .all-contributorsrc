@@ -40,6 +40,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "nigelb135",
+      "name": "Nigel Ball",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/815408?v=4",
+      "profile": "http://nigelball.org",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
