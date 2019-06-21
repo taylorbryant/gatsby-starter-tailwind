@@ -12,7 +12,7 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
 
-      <div className="text-center">
+      <section className="text-center">
         <img
           src={catAndHumanIllustration}
           className="block mx-auto w-1/2"
@@ -33,7 +33,8 @@ function IndexPage() {
           </a>
           , a utility-first CSS framework.
         </p>
-      </div>
+      </section>
+
     </Layout>
   );
 }
