@@ -33,13 +33,6 @@
       ]
     },
     {
-      "login": "ericpoe",
-      "name": "Eric Poe",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/1981351?v=4",
-      "profile": "https://github.com/ericpoe",
-      "contributions": [
-        "code"
-      ],
       "login": "dalwadani",
       "name": "Dhaifallah Alwadani",
       "avatar_url": "https://avatars1.githubusercontent.com/u/4618082?v=4",
@@ -55,6 +48,15 @@
       "profile": "http://nigelball.org",
       "contributions": [
         "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "monte-hayward",
+      "name": "Monte Hayward",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3780422?v=4",
+      "profile": "https://github.com/monte-hayward",
+      "contributions": [
         "code"
       ]
     }
