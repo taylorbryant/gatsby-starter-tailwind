@@ -60,3 +60,8 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+.gatsby-highlight
+{
+    padding-top: 10px;
+}

@@ -47,6 +47,12 @@ function Header({ siteTitle }) {
             >
               Home
             </Link>
+            <Link
+              to="/blog"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+          >
+            Blog
+          </Link>
 
             <Link
               to="/about"
