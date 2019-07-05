@@ -15,12 +15,10 @@ function ContactPage() {
         <form className="mx-auto md:w-1/2">
           <p className="leading-loose mb-8">
             Here is an example of a form built using Tailwind.{" "}
-            <a
+            More form examples are available <a
               href="https://tailwindcss.com/docs/examples/forms"
               className="font-bold no-underline text-gray-700"
-            >
-              More form examples
-            </a> are available on tailwindcss.com.
+            >here</a>.
 
           </p>
 
