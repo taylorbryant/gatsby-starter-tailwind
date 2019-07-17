@@ -34,7 +34,6 @@ function IndexPage() {
           , a utility-first CSS framework.
         </p>
       </section>
-
     </Layout>
   );
 }
