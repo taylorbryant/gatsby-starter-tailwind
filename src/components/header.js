@@ -43,7 +43,7 @@ function Header({ siteTitle }) {
           <div className="text-sm">
             <Link
               to="/"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
             >
               Home
             </Link>
