@@ -1,10 +1,10 @@
 {
   "name": "@oddstronaut/gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "3.0.106",
+  "version": "3.0.107",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "2.14.1",
+    "gatsby": "2.14.2",
     "gatsby-plugin-manifest": "2.2.9",
     "gatsby-plugin-offline": "2.2.10",
     "gatsby-plugin-postcss": "2.1.5",
