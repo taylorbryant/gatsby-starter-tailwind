@@ -1,7 +1,7 @@
 {
   "name": "@oddstronaut/gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "3.0.106",
+  "version": "3.0.107",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "2.14.1",
@@ -49,7 +49,7 @@
     "eslint-plugin-react-hooks": "2.0.1",
     "prettier": "1.18.2",
     "tailwindcss": "1.1.2",
-    "typescript": "3.5.3"
+    "typescript": "3.6.2"
   },
   "repository": {
     "type": "git",
