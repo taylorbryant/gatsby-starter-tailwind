@@ -4,9 +4,9 @@
   "version": "3.0.132",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "2.15.15",
+    "gatsby": "2.15.16",
     "gatsby-plugin-manifest": "2.2.16",
-    "gatsby-plugin-offline": "3.0.6",
+    "gatsby-plugin-offline": "3.0.7",
     "gatsby-plugin-postcss": "2.1.7",
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.7",
