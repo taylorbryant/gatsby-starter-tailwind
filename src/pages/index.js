@@ -8,15 +8,15 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        title="Home"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        title="Home"
       />
 
       <section className="text-center">
         <img
-          src={catAndHumanIllustration}
-          className="block mx-auto w-1/2"
           alt="Cat and human sitting on a couch"
+          className="block mx-auto w-1/2"
+          src={catAndHumanIllustration}
         />
 
         <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
@@ -26,8 +26,8 @@ function IndexPage() {
         <p className="leading-loose">
           This is a barebones starter for Gatsby styled using{` `}
           <a
-            href="https://tailwindcss.com/"
             className="font-bold no-underline text-gray-900"
+            href="https://tailwindcss.com/"
           >
             Tailwind
           </a>

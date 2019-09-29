@@ -7,8 +7,8 @@ function ContactPage() {
   return (
     <Layout>
       <SEO
-        title="Contact"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        title="Contact"
       />
       <section>
         <form className="mx-auto md:w-1/2">
@@ -16,8 +16,8 @@ function ContactPage() {
             Here is an example of a form built using Tailwind. More form
             examples are available{` `}
             <a
-              href="https://tailwindcss.com/docs/examples/forms"
               className="font-bold no-underline text-gray-700"
+              href="https://tailwindcss.com/docs/examples/forms"
             >
               here
             </a>
@@ -34,8 +34,8 @@ function ContactPage() {
           <input
             className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
             id="first-name"
-            type="text"
             placeholder="Bill"
+            type="text"
           />
 
           <label
@@ -48,8 +48,8 @@ function ContactPage() {
           <input
             className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
             id="last-name"
-            type="text"
             placeholder="Murray"
+            type="text"
           />
 
           <label

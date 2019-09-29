@@ -8,8 +8,8 @@ function AboutPage() {
   return (
     <Layout>
       <SEO
-        title="About"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        title="About"
       />
 
       <section className="flex flex-col md:flex-row items-center">
@@ -28,7 +28,7 @@ function AboutPage() {
         </div>
 
         <figure className="w-2/3 md:w-1/3">
-          <img src={dogIllustration} alt="A dog relaxing" />
+          <img alt="A dog relaxing" src={dogIllustration} />
         </figure>
       </section>
     </Layout>

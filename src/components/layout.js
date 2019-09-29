@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 import Header from "./header";
+import "../css/style.css";
 
 function Layout({ children }) {
   return (
@@ -17,8 +18,8 @@ function Layout({ children }) {
           <p className="text-white">
             Created by{` `}
             <a
-              href="https://bryant.io"
               className="font-bold no-underline text-white"
+              href="https://bryant.io"
             >
               Taylor Bryant
             </a>
@@ -26,8 +27,8 @@ function Layout({ children }) {
 
           <p>
             <a
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
               className="font-bold no-underline text-white"
+              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
             >
               GitHub
             </a>
