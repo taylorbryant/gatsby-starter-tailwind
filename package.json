@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "2.3.1",
     "babel-eslint": "10.0.3",
     "cssnano": "^4.1.10",
-    "eslint": "6.4.0",
+    "eslint": "6.5.0",
     "eslint-config-react-app": "5.0.2",
     "eslint-plugin-flowtype": "4.3.0",
     "eslint-plugin-import": "2.18.2",
