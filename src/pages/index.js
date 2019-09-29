@@ -24,7 +24,7 @@ function IndexPage() {
         </h2>
 
         <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{" "}
+          This is a barebones starter for Gatsby styled using{` `}
           <a
             href="https://tailwindcss.com/"
             className="font-bold no-underline text-gray-900"
