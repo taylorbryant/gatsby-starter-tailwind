@@ -1,12 +1,20 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 
-function Header({ siteTitle }) {
+function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
+  const { site } = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
 
   return (
-    <nav className="bg-teal-700">
+    <header className="bg-teal-700">
       <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
         <Link to="/" className="flex items-center no-underline text-white">
           <svg
@@ -18,7 +26,9 @@ function Header({ siteTitle }) {
           >
             <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
           </svg>
-          <span className="font-bold text-xl tracking-tight">{siteTitle}</span>
+          <span className="font-bold text-xl tracking-tight">
+            {site.siteMetadata.title}
+          </span>
         </Link>
 
         <button
@@ -35,45 +45,36 @@ function Header({ siteTitle }) {
           </svg>
         </button>
 
-        <div
+        <nav
           className={`${
             isExpanded ? `block` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
-          <div className="text-sm">
+          {[
+            {
+              route: `/`,
+              title: `Home`
+            },
+            {
+              route: `/about`,
+              title: `About`
+            },
+            {
+              route: `/contact`,
+              title: `Contact`
+            }
+          ].map(link => (
             <Link
-              to="/"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              to={link.route}
+              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white"
             >
-              Home
+              {link.title}
             </Link>
-
-            <Link
-              to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
-            >
-              About
-            </Link>
-
-            <Link
-              to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
-            >
-              Contact
-            </Link>
-          </div>
-        </div>
+          ))}
+        </nav>
       </div>
-    </nav>
+    </header>
   );
 }
-
-Header.propTypes = {
-  siteTitle: PropTypes.string
-};
-
-Header.defaultProps = {
-  siteTitle: ``
-};
 
 export default Header;
