@@ -1,5 +1,5 @@
 {
-  "name": "@oddstronaut/gatsby-starter-tailwind",
+  "name": "gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
   "version": "3.0.141",
   "author": "Taylor Bryant <taylor@bryant.io>",
@@ -53,12 +53,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind"
+    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
   },
   "bugs": {
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind/issues"
-  },
-  "publishConfig": {
-    "access": "public"
+    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
   }
 }
