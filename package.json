@@ -9,7 +9,7 @@
     "gatsby-plugin-offline": "3.0.11",
     "gatsby-plugin-postcss": "2.1.10",
     "gatsby-plugin-purgecss": "4.0.1",
-    "gatsby-plugin-react-helmet": "3.1.10",
+    "gatsby-plugin-react-helmet": "3.1.11",
     "graphql": "14.5.8",
     "prop-types": "15.7.2",
     "react": "16.10.2",
