@@ -5,7 +5,7 @@
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "2.16.1",
-    "gatsby-plugin-manifest": "2.2.21",
+    "gatsby-plugin-manifest": "2.2.23",
     "gatsby-plugin-offline": "3.0.16",
     "gatsby-plugin-postcss": "2.1.13",
     "gatsby-plugin-purgecss": "4.0.1",
