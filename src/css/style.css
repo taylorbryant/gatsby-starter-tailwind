@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* header banner */
+.header-700 {
+    background-color: #fff;
+}
+
+.text-header {
+    color: grey;
+}
+
+/* Main page area */
+h1 {
+    font-size: 2rem;
+}
+
+/* footer */
+.bg-footer-700 {
+    border-top: 1px solid grey;
+    color: grey;
+}
+
+.social-media {
+    font-size: 0.75rem;
+}
+
+.social-media ul {
+    display:inline-flex;
+}
+
+.social-media li {
+    margin-left: 2rem;
+}
+
+.attribution {
+    font-size: 0.75rem;
+}
+
+.attribution a {
+    text-decoration: underline;
+}
