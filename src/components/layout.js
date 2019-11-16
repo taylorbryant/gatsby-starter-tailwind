@@ -16,14 +16,15 @@ function Layout({ children }) {
         <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
 
         <div className="social-media">
+          Get in touch: 
           <ul>
-            <li>LinkedIn</li>
-            <li>Twitter</li>
-            <li>Email</li>
+            <li><a href="https://www.linkedin.com/in/tomwaterton/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/tomwaterton" target="_blank">Twitter</a></li>
+            <li><a href="mailto:tomwaterton@gmail.com">Email</a></li>
           </ul>
         </div>
 
-        <div className="attribution">Created using the <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" target="_blank">gatsby-starter-tailwind</a> Gatsby theme</div>
+        <div className="attribution">Created using the <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" target="_blank">tailwind</a> Gatsby starter theme</div>
 
         </nav>
       </footer>
