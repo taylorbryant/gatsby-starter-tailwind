@@ -2,7 +2,6 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
 
 function ArticlesPage() {
   return (
@@ -12,12 +11,10 @@ function ArticlesPage() {
         title="Articles"
       />
 
-    <div>
-        <h1>My articles</h1>
-     </div>
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
-            <p>Here is some text...</p>
+            <h1>Articles</h1>
+            <p class="description">Some of my recent articles.</p>
         </div>
       </section>
     </Layout>

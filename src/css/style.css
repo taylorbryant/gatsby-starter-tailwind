@@ -90,6 +90,11 @@ h1 {
     font-size: 2rem;
 }
 
+.description {
+    font-style: italic;
+    color: grey;
+}
+
 /* footer */
 .bg-footer-700 {
     color: grey;
@@ -104,12 +109,17 @@ h1 {
     font-size: 0.75rem;
 }
 
+.social-media img {
+    max-width: 32px;
+}
+
 .social-media ul {
     display:inline-flex;
 }
 
 .social-media li {
     margin-left: 1rem;
+    font-weight: 500;
 }
 
 .social-media a:hover {
@@ -119,6 +129,10 @@ h1 {
 
 .attribution {
     font-size: 0.75rem;
+}
+
+.attribution a {
+    font-weight: 500;
 }
 
 .attribution a:hover {

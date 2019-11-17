@@ -22,17 +22,17 @@ function Header() {
       </div>
 
       <div class="navbar">
-        <a href="/content-design">content design</a>
-        <a href="/articles">articles</a>
+        <a href="/content-design">Content design</a>
+        <a href="/articles">Articles</a>
         <div class="dropdown">
-          <button class="dropbtn">tumbleweed
+          <button class="dropbtn">Tumbleweed
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">inventing</a>
-            <a href="#">brewing</a>
-            <a href="#">reading</a>
-            <a href="#">cryptic crosswords</a>
+            <a href="#">Inventing</a>
+            <a href="#">Brewing</a>
+            <a href="#">Reading</a>
+            <a href="#">Cryptic crosswords</a>
           </div>
         </div>
       </div>
