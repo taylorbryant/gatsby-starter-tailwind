@@ -7,7 +7,7 @@
     "gatsby": "2.18.3",
     "gatsby-plugin-manifest": "2.2.30",
     "gatsby-plugin-offline": "3.0.23",
-    "gatsby-plugin-postcss": "2.1.15",
+    "gatsby-plugin-postcss": "2.1.16",
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.16",
     "graphql": "14.5.8",
