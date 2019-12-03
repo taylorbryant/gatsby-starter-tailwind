@@ -95,6 +95,76 @@ h1 {
     color: grey;
 }
 
+/* Article page */
+.articles {
+  padding: 20px 0;
+}
+
+.articles p {
+  font-weight: 600;
+}
+
+.articles li {
+  color: grey;
+  font-size: 0.7rem;
+}
+
+.articles ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.articles a:hover {
+  background-color: #dedede;
+}
+
+/* 404 page */
+
+.padding-bt {
+  padding-bottom: 3rem;
+}
+
+.left {
+  max-width: 50%;
+  float: left;
+}
+
+.left img {
+
+  margin: auto;
+}
+
+.right {
+  max-width: 50%;
+  float: left;
+}
+
+.right ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.links-404-page a {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.links-404-page a:hover {
+  color: black;
+}
+
+
+
 /* footer */
 .bg-footer-700 {
     color: grey;

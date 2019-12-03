@@ -29,10 +29,10 @@ function Header() {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Inventing</a>
-            <a href="#">Brewing</a>
-            <a href="#">Reading</a>
-            <a href="#">Cryptic crosswords</a>
+            <a href="patents">Patents</a>
+            <a href="cryptic-crosswords">Cryptic crosswords</a>
+            <a href="brewing">Brewing</a>
+            <a href="reading">Reading</a>
           </div>
         </div>
       </div>
