@@ -12,61 +12,60 @@ function ContactPage() {
       />
       <section>
         <form className="mx-auto md:w-1/2">
-          <p className="leading-loose mb-8">
-            Here is an example of a form built using Tailwind. More form
-            examples are available{` `}
+          <p className="mb-8 leading-loose">
+            Here is an example of a form built using the official Tailwind CSS Custom Forms  plugin.{` `}
             <a
-              className="font-bold no-underline text-gray-700"
-              href="https://tailwindcss.com/docs/examples/forms"
+              className="font-bold text-gray-700 no-underline"
+              href="https://github.com/tailwindcss/custom-forms"
             >
-              here
+              Read the docs
             </a>
             .
           </p>
 
           <label
-            className="block font-bold mb-2 text-xs uppercase"
+            className="block mb-2 text-xs font-bold uppercase"
             htmlFor="first-name"
           >
             First Name
           </label>
 
           <input
-            className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
+            className="w-full mb-6 form-input"
             id="first-name"
             placeholder="Bill"
             type="text"
           />
 
           <label
-            className="block font-bold mb-2 text-xs uppercase"
+            className="block mb-2 text-xs font-bold uppercase"
             htmlFor="last-name"
           >
             Last Name
           </label>
 
           <input
-            className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
+            className="w-full mb-6 form-input"
             id="last-name"
             placeholder="Murray"
             type="text"
           />
 
           <label
-            className="block font-bold mb-2 text-xs uppercase"
+            className="block mb-2 text-xs font-bold uppercase"
             htmlFor="message"
           >
             Message
           </label>
 
           <textarea
-            className="appearance-none bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
+            className="w-full mb-6 form-textarea"
             id="message"
             placeholder="Say something..."
             rows="8"
           />
 
-          <button className="border-b-4 border-gray-800 hover:border-gray-700 bg-gray-700 hover:bg-gray-600 font-bold px-4 py-2 rounded text-sm text-white">
+          <button className="px-4 py-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600">
             Submit
           </button>
         </form>

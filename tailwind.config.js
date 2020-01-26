@@ -2,5 +2,6 @@
 module.exports = {
   theme: {},
   variants: {},
-  plugins: []
+  // https://github.com/tailwindcss/custom-forms
+  plugins: [require("@tailwindcss/custom-forms")]
 };
