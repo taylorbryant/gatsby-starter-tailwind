@@ -14,7 +14,7 @@
   <br />
 </div>
   
-![alt text](https://image.ibb.co/jv6FC7/gatsby_starter_tailwind.png "Screenshot of Gatsby Starter Tailwind homepage")
+![alt text](https://i.ibb.co/y5GNdJL/Screenshot-2020-01-26-10-52-07.png "Screenshot of Gatsby Starter Tailwind homepage")
   
 <p align="center">View demo <a href="https://quizzical-mcclintock-0226ac.netlify.com/">here</a>.</p>
 
