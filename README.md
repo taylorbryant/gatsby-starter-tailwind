@@ -29,19 +29,19 @@
 
 ## Get started
 
-Install Gatsby CLI:
+Install the Gatsby CLI:
 
 ```sh
 npm i --global gatsby-cli
 ```
 
-Create new Gatsby project using this starter:
+Create a new Gatsby project using this starter:
 
 ```sh
 gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwind
 ```
 
-Build stylesheet from Tailwind config and run the project in development mode:
+Build a stylesheet from Tailwind config and run the project in development mode:
 
 ```sh
 cd my-new-website
