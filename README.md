@@ -7,8 +7,8 @@
 </div>
 
 <div align="center">
-  <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind</a>, a utility-first CSS framework.</strong><br />
-  Uses <a href="https://www.purgecss.com/">Purgecss</a> to remove unused CSS.<br />
+  <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind CSS</a>, a utility-first CSS framework.</strong><br />
+  Uses <a href="https://www.purgecss.com/">PurgeCSS</a> to remove unused CSS.<br />
   Illustrations by <a href="https://undraw.co/">unDraw</a>.
   <br />
   <br />
@@ -18,10 +18,10 @@
   
 <p align="center">View demo <a href="https://quizzical-mcclintock-0226ac.netlify.com/">here</a>.</p>
 
-## What is Tailwind?
+## What is Tailwind CSS?
 
-> "Tailwind is a utility-first CSS framework for rapidly building custom user interfaces."
-> –[Tailwind](https://tailwindcss.com)
+> "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
+> –[Tailwind CSS](https://tailwindcss.com)
 
 ## What is Gatsby?
 
@@ -41,7 +41,7 @@ Create a new Gatsby project using this starter:
 gatsby new my-new-website https://github.com/taylorbryant/gatsby-starter-tailwind
 ```
 
-Build a stylesheet from Tailwind config and run the project in development mode:
+Build a stylesheet from your Tailwind CSS config and run the project in development mode:
 
 ```sh
 cd my-new-website
