@@ -6,7 +6,7 @@
   "dependencies": {
     "gatsby": "2.19.12",
     "gatsby-plugin-manifest": "2.2.41",
-    "gatsby-plugin-offline": "3.0.33",
+    "gatsby-plugin-offline": "3.0.34",
     "gatsby-plugin-postcss": "2.1.20",
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.22",
