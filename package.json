@@ -43,7 +43,7 @@
     "cssnano": "4.1.10",
     "eslint": "6.8.0",
     "eslint-loader": "3.0.3",
-    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-import": "2.20.1",
     "eslint-plugin-react": "7.18.3",
     "gatsby-plugin-eslint": "2.0.8",
     "prettier": "1.19.1",
