@@ -10,6 +10,11 @@
     // https://eslint.org/docs/2.0.0/rules/strict
     "strict": 0
   },
+  "settings": {
+    "react": {
+       "version": "detect"
+     }
+  },
   "extends": [
     // https://eslint.org/docs/rules/
     "eslint:recommended",
