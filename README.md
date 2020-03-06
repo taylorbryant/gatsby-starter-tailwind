@@ -62,9 +62,11 @@ Use `npm run build` to build your site for production.
 ### Netlify
 
 #### 1. Deploy this repo
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/taylorbryant/gatsby-starter-tailwind)
 
 #### 2. Update the build settings
+
 ![alt text](https://i.ibb.co/whvDmxY/Screenshot-2020-01-26-11-06-15.png "Example Netlify build settings")
 
 ## Resources

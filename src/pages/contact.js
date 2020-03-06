@@ -13,7 +13,8 @@ function ContactPage() {
       <section>
         <form className="mx-auto md:w-1/2">
           <p className="mb-8 leading-loose">
-            Here is an example of a form built using the official Tailwind CSS Custom Forms  plugin.{` `}
+            Here is an example of a form built using the official Tailwind CSS
+            Custom Forms plugin.{` `}
             <a
               className="font-bold text-gray-700 no-underline"
               href="https://github.com/tailwindcss/custom-forms"
