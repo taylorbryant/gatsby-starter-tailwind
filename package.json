@@ -10,7 +10,7 @@
     "gatsby-plugin-postcss": "2.2.1",
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.2.1",
-    "gatsby-plugin-sharp": "2.5.1",
+    "gatsby-plugin-sharp": "2.5.3",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
