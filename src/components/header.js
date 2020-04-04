@@ -53,17 +53,17 @@ function Header() {
           {[
             {
               route: `/`,
-              title: `Home`
+              title: `Home`,
             },
             {
               route: `/about`,
-              title: `About`
+              title: `About`,
             },
             {
               route: `/contact`,
-              title: `Contact`
-            }
-          ].map(link => (
+              title: `Contact`,
+            },
+          ].map((link) => (
             <Link
               className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white"
               key={link.title}
