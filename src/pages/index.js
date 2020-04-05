@@ -15,21 +15,23 @@ function IndexPage() {
       <section className="text-center">
         <img
           alt="Cat and human sitting on a couch"
-          className="block mx-auto w-1/2"
+          className="block w-1/2 mx-auto mb-8"
           src={catAndHumanIllustration}
         />
 
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
+        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
           Hey there! Welcome to your first Gatsby site.
         </h2>
 
         <p className="leading-loose">
           This is a barebones starter for Gatsby styled using{` `}
           <a
-            className="font-bold no-underline text-gray-900"
+            className="font-bold text-gray-900 no-underline"
             href="https://tailwindcss.com/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Tailwind
+            Tailwind CSS
           </a>
           , a utility-first CSS framework.
         </p>

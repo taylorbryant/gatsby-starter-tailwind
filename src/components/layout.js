@@ -5,20 +5,22 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col font-sans min-h-screen text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <Header />
 
-      <main className="flex flex-col flex-1 md:justify-center max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
+      <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
       </main>
 
       <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
+        <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">
             Created by{` `}
             <a
-              className="font-bold no-underline text-white"
+              className="font-bold no-underline"
               href="https://bryant.io"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Taylor Bryant
             </a>
@@ -26,8 +28,10 @@ function Layout({ children }) {
 
           <p>
             <a
-              className="font-bold no-underline text-white"
+              className="font-bold text-white no-underline"
               href="https://github.com/taylorbryant/gatsby-starter-tailwind"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>

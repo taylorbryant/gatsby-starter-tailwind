@@ -18,6 +18,8 @@ function ContactPage() {
             <a
               className="font-bold text-gray-700 no-underline"
               href="https://github.com/tailwindcss/custom-forms"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Read the docs
             </a>
