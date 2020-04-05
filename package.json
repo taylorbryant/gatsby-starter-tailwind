@@ -32,6 +32,7 @@
     "fix": "npm run fix:lint && npm run fix:prettier",
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "npm run develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
