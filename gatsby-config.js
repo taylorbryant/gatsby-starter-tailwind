@@ -5,7 +5,7 @@ module.exports = {
     author: `@taylorbryant`,
   },
   plugins: [
-    "gatsby-plugin-eslint",
+    `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
