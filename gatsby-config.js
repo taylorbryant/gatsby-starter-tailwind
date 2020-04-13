@@ -25,12 +25,12 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-postcss",
+      resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
           require(`tailwindcss`)(tailwindConfig),
           require(`autoprefixer`),
-          ...(process.env.NODE_ENV === "production"
+          ...(process.env.NODE_ENV === `production`
             ? [require(`cssnano`)]
             : []),
         ],
