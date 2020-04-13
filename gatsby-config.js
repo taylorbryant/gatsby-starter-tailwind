@@ -1,3 +1,8 @@
+const resolveConfig = require("tailwindcss/resolveConfig");
+const tailwindConfig = require("./tailwind.config.js");
+
+const fullConfig = resolveConfig(tailwindConfig);
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Tailwind`,
@@ -13,8 +18,8 @@ module.exports = {
         name: `gatsby-starter-tailwind`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
+        background_color: fullConfig.theme.colors.white,
+        theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,
         icon: `src/images/tailwind-icon.png`,
       },
