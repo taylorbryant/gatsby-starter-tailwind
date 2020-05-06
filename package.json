@@ -7,7 +7,7 @@
     "gatsby": "2.21.15",
     "gatsby-plugin-manifest": "2.4.1",
     "gatsby-plugin-offline": "3.2.0",
-    "gatsby-plugin-postcss": "2.3.0",
+    "gatsby-plugin-postcss": "2.3.1",
     "gatsby-plugin-react-helmet": "3.3.0",
     "gatsby-plugin-sharp": "2.6.1",
     "prop-types": "15.7.2",
