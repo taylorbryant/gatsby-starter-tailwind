@@ -45,7 +45,7 @@
     "eslint": "6.8.0",
     "eslint-loader": "3.0.4",
     "eslint-plugin-import": "2.20.2",
-    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react": "7.20.0",
     "gatsby-plugin-eslint": "2.0.8",
     "prettier": "2.0.5",
     "tailwindcss": "1.4.6"
