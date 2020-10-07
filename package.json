@@ -4,7 +4,7 @@
   "version": "4.0.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "2.24.66",
+    "gatsby": "2.24.69",
     "gatsby-plugin-manifest": "2.4.33",
     "gatsby-plugin-offline": "3.2.29",
     "gatsby-plugin-postcss": "2.3.13",
