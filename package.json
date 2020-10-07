@@ -9,7 +9,7 @@
     "gatsby-plugin-offline": "3.2.31",
     "gatsby-plugin-postcss": "2.3.13",
     "gatsby-plugin-react-helmet": "3.3.13",
-    "gatsby-plugin-sharp": "2.6.37",
+    "gatsby-plugin-sharp": "2.6.39",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
