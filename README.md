@@ -32,7 +32,7 @@
 Install the Gatsby CLI:
 
 ```sh
-npm i --global gatsby-cli
+npm install --global gatsby-cli
 ```
 
 Create a new Gatsby project using this starter:
