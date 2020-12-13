@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "2.28.2",
@@ -12,7 +12,7 @@
     "gatsby-plugin-sharp": "2.10.1",
     "prop-types": "15.7.2",
     "react": "17.0.1",
-    "react-dom": "16.14.0",
+    "react-dom": "17.0.1",
     "react-helmet": "6.1.0"
   },
   "keywords": [
