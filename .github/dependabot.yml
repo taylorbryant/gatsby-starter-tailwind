@@ -1,0 +1,48 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: postcss
+    versions:
+    - 8.2.10
+    - 8.2.12
+    - 8.2.6
+    - 8.2.9
+  - dependency-name: cssnano
+    versions:
+    - 4.1.11
+    - 5.0.0
+  - dependency-name: eslint
+    versions:
+    - 7.20.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: tailwindcss
+    versions:
+    - 2.0.3
+    - 2.1.1
+  - dependency-name: gatsby
+    versions:
+    - 2.32.10
+    - 2.32.11
+    - 2.32.4
+    - 2.32.7
+    - 2.32.8
+    - 2.32.9
+  - dependency-name: gatsby-plugin-offline
+    versions:
+    - 3.10.1
+  - dependency-name: autoprefixer
+    versions:
+    - 10.2.4
+  - dependency-name: gatsby-plugin-manifest
+    versions:
+    - 2.12.0
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - 2.14.1
