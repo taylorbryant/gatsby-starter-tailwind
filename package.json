@@ -48,7 +48,7 @@
     "eslint-plugin-react": "7.23.2",
     "gatsby-plugin-eslint": "2.0.8",
     "postcss": "8.2.13",
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "tailwindcss": "2.1.2"
   },
   "repository": {
