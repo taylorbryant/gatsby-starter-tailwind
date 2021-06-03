@@ -49,7 +49,7 @@
     "gatsby-plugin-eslint": "2.0.8",
     "postcss": "8.2.13",
     "prettier": "2.2.1",
-    "tailwindcss": "2.1.2"
+    "tailwindcss": "2.1.4"
   },
   "repository": {
     "type": "git",
