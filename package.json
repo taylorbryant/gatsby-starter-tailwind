@@ -38,7 +38,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "0.3.3",
+    "@tailwindcss/forms": "0.3.4",
     "autoprefixer": "10.2.6",
     "babel-eslint": "10.1.0",
     "cssnano": "5.0.1",
